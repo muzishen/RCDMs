@@ -4,6 +4,7 @@
 - [2024/08/08]  🔥 We release the train and test code of RCDMs.
 - [2024/07/02]  🔥 We release the [paper](https://arxiv.org/pdf/2407.02482) of RCDMs for story generation.
 
+---
 
 ![Framework](assets/2.png)
 ![Framework](assets/1.png)
@@ -61,7 +62,9 @@ python3 stage1_batchtest_rcdms_model.py
 python3 stage2_batchtest_rcdms_model.py
 ```
 
+## 📝 Citation
 
+If you find RCDMs useful for your research and applications, please cite using this BibTeX:
 
 ```bibtex
 @article{shen2024boosting,
