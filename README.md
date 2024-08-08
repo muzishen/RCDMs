@@ -6,8 +6,7 @@
 
 ---
 
-![Framework](assets/2.png)
-![Framework](assets/1.png)
+
 
 ### 🚀 **Abstract:**
 Recent research showcases the considerable potential of conditional diffusion models for generating consistent stories. However, current methods, which predominantly generate stories in an autoregressive and excessively caption-dependent manner, often underrate the contextual consistency and relevance of frames during sequential generation. To address this, we propose a novel Rich-contextual Conditional Diffusion Models (RCDMs), a two-stage approach designed to enhance story generation’s semantic consistency and temporal consistency. Specifically, in the first stage, the frame-prior transformer diffusion model is presented to predict the frame semantic embedding of the unknown clip by aligning the semantic correlations between the captions and frames of the known clip. The second stage establishes a robust model with rich contextual conditions, including reference images of the known clip, the predicted frame semantic embedding of the unknown clip, and text embeddings of all captions. By jointly injecting these rich contextual conditions at the image and feature levels, RCDMs can generate semantic and temporal consistency stories. Moreover, RCDMs can generate consistent stories with a single forward inference compared to autoregressive models. Our qualitative and quantitative results demonstrate that our proposed RCDMs outperform in challenging scenarios.
@@ -21,7 +20,8 @@ Recent research showcases the considerable potential of conditional diffusion mo
 
 Story visualization aims to depict a continuous narrative through multiple captions and reference clips. It has profound applications in game development and comic drawing. Due to the technological leaps in generative models, text-to-image synthesis methods can now generate visually faithful images through text descriptions. However, generating a continuous story with style and temporal consistency still poses significant challenges. Our proposed Rich-contextual Conditional Diffusion Models (RCDMs) tackle these issues by introducing a two-stage diffusion model framework that incorporates rich contextual information at both the image and feature levels.
 
-![framework](assets/pipeline.png)
+![Framework](assets/2.png)
+![Framework](assets/1.png)
 
 ## 🔧 Requirements
 
@@ -41,7 +41,6 @@ pip install -r requirements.txt
 
 ## 🎉 How to Use
 
-### <span style="color:red">Important Reminder</span>
 
 
 ### 1. How to train 
