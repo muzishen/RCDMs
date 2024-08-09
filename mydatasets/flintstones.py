@@ -8,7 +8,6 @@ from torch.utils.data import Dataset
 from torchvision import transforms
 from transformers import CLIPTokenizer,CLIPImageProcessor
 from PIL import Image
-from src.blip_override.blip import init_tokenizer
 from transformers import (CLIPVisionModelWithProjection, CLIPImageProcessor, CLIPVisionModel)
 
 def Collate_fn(data):
