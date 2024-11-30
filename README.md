@@ -23,6 +23,11 @@ Story visualization aims to depict a continuous narrative through multiple capti
 ![Framework](assets/2.png)
 ![Framework](assets/1.png)
 
+
+## Dataset Prepare
+Dataset preparation follows the workflow outlined in [ARLDM](https://github.com/xichenpan/ARLDM).
+
+
 ## 🔧 Requirements
 
 - Python >= 3.8 (Recommend to use [Anaconda](https://www.anaconda.com/download/#linux) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html))
