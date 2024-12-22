@@ -1,6 +1,12 @@
 
 # **Boosting Consistency in Story Visualization with Rich-Contextual Conditional Diffusion Models**
 
+
+微信讨论群：
+
+![Group](assets/wx_group1.jpg)
+
+
 - [2024/08/08]  🔥 We release the train and test code of RCDMs.
 - [2024/07/02]  🔥 We release the [paper](https://arxiv.org/pdf/2407.02482) of RCDMs for story generation.
 
