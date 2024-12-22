@@ -6,7 +6,7 @@
 
 ![Group](assets/wx_group1.jpg)
 
-
+- [2024/12/10]  🔥 RCDMs is accepted by AAAI 2025.
 - [2024/08/08]  🔥 We release the train and test code of RCDMs.
 - [2024/07/02]  🔥 We release the [paper](https://arxiv.org/pdf/2407.02482) of RCDMs for story generation.
 
