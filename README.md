@@ -2,9 +2,6 @@
 # **Boosting Consistency in Story Visualization with Rich-Contextual Conditional Diffusion Models**
 
 
-微信讨论群：
-
-![Group](assets/wx_group1.jpg)
 
 - [2024/12/10]  🔥 RCDMs is accepted by AAAI 2025.
 - [2024/08/08]  🔥 We release the train and test code of RCDMs.
