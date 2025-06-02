@@ -82,5 +82,13 @@ If you find RCDMs useful for your research and applications, please cite using t
 
 ```
 
+## 👉 **My other projects:**  
+- [IMAGDressing](https://github.com/muzishen/IMAGDressing): Interactive modular apparel generation; virtual dressing.  
+- [IMAGGarment-1](https://github.com/muzishen/IMAGGarment-1): Fine-grained controllable garment generation.  
+- [IMAGHarmony](https://github.com/muzishen/IMAGHarmony): Controllable image editing with consistent object layout.  
+- [IMAGPose](https://github.com/muzishen/IMAGPose): Pose-guided person generation with high fidelity.  
+- [PCDMs](https://github.com/tencent-ailab/PCDMs): Progressive conditional diffusion for pose-guided image synthesis.
+
+
 ## 📨 Contact
 If you have any questions, please feel free to contact with me at shenfei140721@126.com.
