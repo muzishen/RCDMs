@@ -23,7 +23,7 @@ from transformers import CLIPTextModel, CLIPTokenizer, CLIPVisionModelWithProjec
 from resampler import Resampler
 from torch import nn
 from transformers import Dinov2Model
-from configs.flintstones_config import  args
+from configs.stage1_config import  args
 logger = get_logger(__name__)
 from src.models.unet import UNet3DConditionModel
 from omegaconf import OmegaConf
