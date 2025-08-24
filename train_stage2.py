@@ -240,7 +240,7 @@ def main(unet_additional_kwargs: Dict = {},):
 
     # Load models and create wrapper for stable diffusion
     text_encoder = CLIPTextModelWithProjection.from_pretrained(args.pretrained_model_name_or_path, subfolder="text_encoder")
-    image_encoder = CLIPVisionModelWithProjection.from_pretrained('/mnt/aigc_cq/private/feishen/weights/prior_diffuser/kandinsky-2-2-prior', subfolder="image_encoder")
+    image_encoder = CLIPVisionModelWithProjection.from_pretrained('./weights/prior_diffuser/kandinsky-2-2-prior', subfolder="image_encoder")
     unet = UNet3DConditionModel.from_pretrained_2d(
         args.pretrained_model_name_or_path, subfolder="unet",
         unet_additional_kwargs=OmegaConf.to_container(unet_additional_kwargs)
